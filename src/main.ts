@@ -16,6 +16,7 @@ async function bootstrap() {
     .setDescription('API para salvar os dados de cadastro da single page aplication do processo seletivo da IN8')
     .setVersion('1.0')
     .addServer('http://localhost:3333')
+    .addServer('https://indev-api.onrender.com/')
     .addTag('status')
     .addTag('registered')
     .build();
