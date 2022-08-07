@@ -50,6 +50,7 @@ export const StyledMain = styled.section`
     background-image: url(${imgMobile});
     aspect-ratio: 0.66;
     align-items: flex-start;
+    background-position: 0;
 
     div {
       margin: 0;
