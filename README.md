@@ -1,6 +1,6 @@
-# [Landing page IN8DEV](https://indev-teste.vercel.app/)
+# [Landing page IN8DEV](https://indev-page.vercel.app/)
 
-### Link para aplicação [indev-teste.vercel.app/](https://indev-teste.vercel.app/)
+### Link para aplicação [indev-page.vercel.app/](https://indev-page.vercel.app/)
 ### Tecnologias aplicadas
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
