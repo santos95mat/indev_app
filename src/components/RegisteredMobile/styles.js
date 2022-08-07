@@ -94,17 +94,17 @@ export const StyledRegisteredMobile = styled.section`
       p.colunm__title {
         font-family: ${constants.secondaryFont};
         color: ${colors.secondaryColor};
-        width: 30%;
+        width: 20%;
         height: 100%;
-        font-size: 3vh;
+        font-size: 2vh;
       }
 
       p.colunm__dados {
         font-family: ${constants.thirdfont};
         color: ${colors.infoColor};
-        width: 70%;
+        width: 80%;
         height: 100%;
-        font-size: 3vh;
+        font-size: 2vh;
       }
     }
   }
