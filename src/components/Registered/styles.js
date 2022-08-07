@@ -15,6 +15,7 @@ export const StyledRegistered = styled.section`
     font-family: ${constants.primaryFont};
     font-size: 2.2vw;
     margin-top: 2vw;
+    margin-bottom: 2vw;
   }
 
   section {
@@ -26,7 +27,7 @@ export const StyledRegistered = styled.section`
       display: flex;
 
       div {
-        height: 4vw;
+        height: 3vw;
         min-height: 32px;
         box-sizing: border-box;
         text-align: center;
@@ -67,12 +68,12 @@ export const StyledRegistered = styled.section`
   img {
     position: absolute;
     width: 3vw;
-    right: 2vw;
-    bottom: 2vw;
+    right: 6vw;
+    bottom: 4vw;
     cursor: pointer;
   }
 
-  @media screen and (max-width: 991px) and (min-width: 767px) {
+  @media screen and (max-width: 1024px) and (min-width: 767px) {
     h2 {
       font-size: 3vh;
       margin-bottom: 2vh;

@@ -36,7 +36,7 @@ export const StyledMain = styled.section`
     text-align: center;
   }
 
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1024px) {
     div {
       margin-bottom: 10vh;
     }

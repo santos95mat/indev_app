@@ -32,7 +32,7 @@ export const StyledRegisteredMobile = styled.section`
       box-sizing: border-box;
       flex-shrink: 0;
       width: 24.25%;
-      height: 5vh;
+      height: 4vh;
 
       label {
         position: relative;
@@ -77,12 +77,12 @@ export const StyledRegisteredMobile = styled.section`
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 4vh 2vh 4vh 2vh;
+    padding: 2vh 2vh 2vh 2vh;
     margin-bottom: 6vh;
     width: 96%;
     border: 2px solid ${colors.primaryColor};
     z-index: 2;
-    gap: 2vh;
+    gap: 1vh;
 
     div {
       display: flex;

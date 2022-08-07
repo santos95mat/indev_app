@@ -32,6 +32,7 @@ export const StyledRegister = styled.section`
         text-align: center;
         width: 100%;
         margin-bottom: 2vw;
+        margin-top: 3vw;
       }
 
       div {
@@ -69,20 +70,20 @@ export const StyledRegister = styled.section`
 
   button {
     box-sizing: border-box;
-    width: 12vw;
-    height: 2.7vw;
+    width: 15vw;
+    height: 3vw;
     background-color: ${colors.secondaryColor};
     color: ${colors.primaryColor};
     font-family: ${constants.primaryFont};
     outline: 0;
     border: none;
-    font-size: 1.6vw;
+    font-size: 1.9vw;
     cursor: pointer;
     margin-bottom: 2.5vw;
   }
 
   
-  @media screen and (max-width: 991px) and (min-width: 767px){
+  @media screen and (max-width: 1024px) and (min-width: 767px){
     min-height: 30vh;
     justify-content: space-around;
     align-items: center;
@@ -107,12 +108,16 @@ export const StyledRegister = styled.section`
       }
     }
 
+    p {
+      font-size: 1.5vh
+    }
+
     button {
       margin-top: 1vh;
       margin-bottom: 3vh;
       width: 25vw;
-      font-size: 2.7vh;
-      height: auto;
+      font-size: 3vw;
+      height: 5vw;
     }
 
   }
@@ -128,6 +133,7 @@ export const StyledRegister = styled.section`
 
         legend {
           font-size: 5vh;
+          margin-bottom: 5vh;
         }
 
         div {
@@ -150,8 +156,8 @@ export const StyledRegister = styled.section`
 
     button {
       margin-top: 2vh;
-      width: 60vw;
-      height: 5vh;
+      width: 80vw;
+      height: 7vh;
       font-size: 4vh;
       margin-bottom: 5vh;
     }
