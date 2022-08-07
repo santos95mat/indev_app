@@ -9,17 +9,18 @@ import { useRef, useState, useEffect } from "react";
 import axios from "axios";
 
 const baseDados = {
-  nome: "",
-  enail: "",
-  nascimento: "",
-  telefone: ""
+  nome: "Matheus R Santos",
+  email: "mrs@gmail.com",
+  nascimento: "05/03/1995",
+  telefone: "(31) 9 7168-8746"
 }
 
 const App = () => {
-  const [database, setDatabase] = useState([baseDados]);
+  const [database, setDatabase] = useState([]);
   const [datareal, setDatareal] = useState([baseDados]);
 
   const addBlankLine = (data) => {
+
     const blank = {
       nome: " ",
       email: " ",
@@ -42,13 +43,13 @@ const App = () => {
     return newData;
   };
 
-  const setBlankLine = (data) => {
-    setDatareal(addBlankLine(data));
+  const getAxios = async () => {
+    await axios.get('https://indev-api.onrender.com/registered')
+    .then((res) => setDatareal(addBlankLine([baseDados, ...res.data])));
   };
 
   useEffect(() => {
-    axios.get('https://indev-api.onrender.com/registered').then((res) => setDatabase(res.data));
-    setBlankLine(database);
+    getAxios();
   }, [database]);
 
   const registerRef = useRef();

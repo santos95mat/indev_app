@@ -27,6 +27,8 @@ const Register = ({ registerRef, database, setDatabase }) => {
     axios
     .post('https://indev-api.onrender.com/registered', data)
     .then(() => {
+      setDatabase(data);
+
       e.target.form[1].value = "";
       e.target.form[2].value = "";
       setDateValue("");
