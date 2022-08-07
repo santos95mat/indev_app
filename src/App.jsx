@@ -8,9 +8,16 @@ import Footer from "./components/Footer";
 import { useRef, useState, useEffect } from "react";
 import axios from "axios";
 
+const baseDados = {
+  nome: "",
+  enail: "",
+  nascimento: "",
+  telefone: ""
+}
+
 const App = () => {
-  const [database, setDatabase] = useState([]);
-  const [datareal, setDatareal] = useState([]);
+  const [database, setDatabase] = useState([baseDados]);
+  const [datareal, setDatareal] = useState([baseDados]);
 
   const addBlankLine = (data) => {
     const blank = {
