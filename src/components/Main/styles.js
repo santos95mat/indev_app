@@ -37,6 +37,10 @@ export const StyledMain = styled.section`
   }
 
   @media screen and (max-width: 1024px) {
+    aspect-ratio: 1.64;
+    background-size: cover;
+    background-position: -12vw;
+
     div {
       margin-bottom: 10vh;
     }
