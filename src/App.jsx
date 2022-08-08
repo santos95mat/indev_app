@@ -44,6 +44,10 @@ const App = () => {
   };
 
   const getAxios = async () => {
+    if(database.length === 0) {
+      setDatareal(addBlankLine([baseDados]));
+    }
+
     await axios.get('https://indev-api.onrender.com/registered')
     .then((res) => setDatareal(addBlankLine([baseDados, ...res.data])));
   };
