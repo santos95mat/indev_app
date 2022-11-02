@@ -14,4 +14,4 @@
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-#### Para maiores informações acesse as respectivas páginas
+#### Para maiores informações acesse as respectivas pastas
