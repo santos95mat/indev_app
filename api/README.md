@@ -2,13 +2,11 @@
 
 ### Link para aplicação [indev-api.onrender.com/docs](https://indev-api.onrender.com/docs)
 
-#### API em NEST para para participar do processo seletivo IN8
+#### API desenvolvida em NEST para participar do processo seletivo IN8
 
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
-
-Este é o projeto do módulo quatro do curso de Desenvolvimento Full Stack da Blue Edtech.
 
 Para esta aplicação foi desenvolvida uma API para cadastro de pssoas em um formulário.
 Este apresenta fundamentos em NestJS e Prisma e documentação de projetos
